@@ -1,23 +1,25 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #F0F0F0;
-    background-color: #585858;
-    width: 90%;
+    background-color: #7E7E7E;
     margin: 0 auto;
     text-align: center;
 }
 
-h1 {
-    text-align: center;
+#currentpage {
+    border: 1.5px solid #CACACA;
+    color: #CACACA;
 }
 
 
-/* MENU NAVIGATION */
+/* HEADER */
+header {
+    background-color: #585858;
+    padding: 25px;
+}
 
 .menu {
     padding-right: 40px;
-    border: 3px solid ;
-    border-radius: 5px;
 }
 .menu ul {
     list-style-type: none;
@@ -48,10 +50,13 @@ h1 {
 }
 
 
+
+
 /* CONTENU PAGE */
 
 .content {
-    width: auto;
+    width: 90%;
+    margin: auto;
     padding: 20px;
     border-radius: 5px;
     text-align: justify;
@@ -71,6 +76,7 @@ h1 {
     float: right;
     width: 20%;
     height: auto;
+    margin-right: 150px;
     border-radius: 100%;
 }
 
@@ -86,8 +92,12 @@ h1 {
 }
 
 
+
+
 /* FOOTER */
 
 footer {
-    text-align: start;
+    background-color: #585858;
+    padding: 25px;
+    text-align: center;
 }
