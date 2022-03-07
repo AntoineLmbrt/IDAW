@@ -1,0 +1,93 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F0F0F0;
+    background-color: #585858;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* MENU NAVIGATION */
+
+.menu {
+    padding-right: 40px;
+    border: 3px solid ;
+    border-radius: 5px;
+}
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    padding: 5px 50px 5px 50px;
+    margin: 1px 25px 1px 25px;
+    background-color: #7E7E7E;
+    text-decoration: none;
+}
+
+.menu li a:link {
+    color: #F0F0F0;
+}
+.menu li a:visited {
+    color: #F0F0F0;
+}
+.menu li a:hover {
+    border: 1.5px solid #CACACA;
+    color: #CACACA;
+}
+
+
+/* CONTENU PAGE */
+
+.content {
+    width: auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+/* CV */
+.cv_items {
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #F0F0F0;
+    border-radius: 5px;
+}
+
+#cv_photo {
+    float: right;
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* Contacts */
+#contacts {
+    list-style-type: none;
+    vertical-align: center;
+    width: auto;
+    
+}
+#contacts li {
+    padding: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: start;
+}
