@@ -1,15 +1,14 @@
 <?php
     require_once('template_header.php');
 ?>
-            <nav class="menu">
-                <ul>
-                    <li><a id="currentpage" href="index.php">ACCUEIL</a></li>
-                    <li><a href="cv.php">CV</a></li>
-                    <li><a href="projets.php">PROJETS</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav class="menu">
+            <ul>
+                <li><a id="currentpage" href="index.php">ACCUEIL</a></li>
+                <li><a href="cv.php">CV</a></li>
+                <li><a href="projets.php">PROJETS</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </nav>
         <div class="content">
             <article>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque nunc vitae magna lacinia, nec egestas mauris aliquet. Pellentesque laoreet eros sapien, ut ultrices lectus interdum non. Nullam laoreet placerat enim, at mollis purus. Phasellus nibh odio, placerat id sapien ut, porttitor ullamcorper ex. Nullam eget iaculis erat. Proin suscipit tincidunt urna non eleifend. Mauris sollicitudin ante rutrum accumsan iaculis. Morbi semper odio vitae ipsum feugiat, eu interdum purus posuere. Vestibulum hendrerit venenatis egestas. Cras eleifend viverra fermentum.</p>
