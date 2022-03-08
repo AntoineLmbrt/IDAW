@@ -3,7 +3,7 @@
     <head>
 
         <meta charset="utf-8">
-        <title>TP1</title>
+        <title>TP2</title>
 
         <!-- CSS files -->
         <link rel="stylesheet" href="style.css">
