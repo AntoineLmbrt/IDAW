@@ -10,3 +10,5 @@
         
     </head>
     <body>
+        <header>
+            <h1>TP2 : Mon premier site Web (avec PHP !)</h1>

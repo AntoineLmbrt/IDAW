@@ -1,8 +1,6 @@
 <?php
     require_once('template_header.php');
 ?>
-        <header>
-        <h1>TP1 : Mon premier site Web</h1>
             <nav class="menu">
                 <ul>
                     <li><a id="currentpage" href="index.php">ACCUEIL</a></li>
