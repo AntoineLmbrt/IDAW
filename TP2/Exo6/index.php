@@ -6,10 +6,16 @@
     if(isset($_GET['page'])) {
         $currentPageId = $_GET['page'];
     }
-
-    renderMenuToHTML('index');
 ?>
+
+<header>
+    <h1>TP2 : Mon premier site Web (avec PHP !)</h1>
 </header>
+
+<?php
+    renderMenuToHTML($currentPageId);
+?>
+
 <div class="content">
     <?php
         $pageToInclude = $currentPageId . ".php";
@@ -19,6 +25,7 @@
             require_once("error.php");
     ?>
 </div>
+
 <?php
     require_once('template_footer.php');
 ?>

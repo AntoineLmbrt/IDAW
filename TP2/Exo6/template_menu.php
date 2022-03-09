@@ -3,7 +3,7 @@
         // un tableau qui définit la structure du site
         $mymenu = array(
             //idPage titre
-            'index' => array('ACCEUIL'),
+            'accueil' => array('ACCEUIL'),
             'cv' => array('CV'),
             'projets' => array('PROJETS'),
             'contact' => array('CONTACT')
@@ -13,10 +13,10 @@
 
         foreach($mymenu as $pageId => $pageParameters) {
             if ($pageId === $currentPageId) {
-                echo('<li><a id="currentpage" href="'.$pageId.'.php">'.$pageParameters[0].'</a></li>');
+                echo('<li><a id="currentpage" href="index.php?page='.$pageId.'">'.$pageParameters[0].'</a></li>');
             }
             else {
-                echo('<li><a href="'.$pageId.'.php">'.$pageParameters[0].'</a></li>');
+                echo('<li><a href="index.php?page='.$pageId.'">'.$pageParameters[0].'</a></li>');
             }
         }
 
