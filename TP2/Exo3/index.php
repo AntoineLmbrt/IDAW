@@ -6,7 +6,6 @@
                 <li><a id="currentpage" href="index.php">ACCUEIL</a></li>
                 <li><a href="cv.php">CV</a></li>
                 <li><a href="projets.php">PROJETS</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </nav>
         <div class="content">
