@@ -1,5 +1,4 @@
 body {
-    min-height: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #F0F0F0;
     background-color: #7E7E7E;
@@ -26,15 +25,16 @@ header {
 }
 
 .menu {
+    display: inline-flex;
     width: 100%;
-    padding: 1px;
+    height: 50px;
     background-color: #CACACA;
     background-image: url("assets/background.png");
     position: sticky;
     top: 0;
 }
 .menu ul {
-    list-style-type: none;
+    margin: auto;
     text-align: center;
 }
 
