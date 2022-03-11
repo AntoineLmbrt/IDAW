@@ -1,23 +1,26 @@
 <div class="content">
     <img id="cv_photo" src="assets/itsme.jpg">
     <div class="cv_items" id="presentation">
-        <h2>Presentation</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend lobortis pretium. Phasellus sed sem eget augue rhoncus rhoncus. Morbi erat est, pretium sed euismod sed, dapibus eu mi. In sed libero ac turpis tristique rutrum eget nec metus. Praesent blandit pharetra pharetra. Integer dolor sem, laoreet vitae cursus id, bibendum id dolor. Maecenas aliquam eros vel dolor gravida, pretium efficitur leo mattis. Nulla eu nibh urna. Suspendisse feugiat sed diam id lacinia. Morbi tristique ante vel purus vehicula elementum.</p>
+        <h2>Présentation</h2>
+        <p>Je m'appelle Antoine Lambert, j'ai 23 ans et je suis étudiant en quatrième année à l'IMT Nord Europe.</p>
+        <p>Plongé dans l'informatique depuis tout petit, je suis très passionné par le développement.</p>
+        <p>Dans le cadre des mes études, je suis actuellement un cours d'introduction au développement Web.</p>
     </div>
     <div class="cv_items" id="parcours">
-        <h2>Background</h2>
+        <h2>Parcours</h2>
         <div class="parcours">
-            <h3><em>2014 - 2017 :</em>Albert Chatelet High School</h3>
-            <p>Degree : BAC S <i>(Specialty: MATHS), </i>Honorable Mention</p>
+            <h3><em>2014 - 2017 :</em> Lycée Albert Chatelet</h3>
+            <p>Diplôme : BAC S</p>
         </div>
         <div class="parcours">
-            <h3><em>2018 - Today :</em> IMT Nord Europe</h3>
+            <h3><em>2018 - Aujourd'hui :</em> IMT Nord Europe</h3>
+            <p>Diplôme : Ingénieur généraliste spécialisé dans le domaine du Numérique</p>
         </div>
     </div>
     <div class="cv_items" id="experience" >
-        <h2>Experiences</h2>
+        <h2>Expériences</h2>
         <div class="stage">
-            <h3><em>2020 : </em>ATOS Internship</h3>
+            <h3><em>2020 : </em>Stage ATOS</h3>
             <ul>
                 <li>API REST / Requêtes HTTP</li>
                 <li>Langage VBA</li>
@@ -25,11 +28,11 @@
             </ul>
         </div>
         <div class="stage">
-            <h3><em>2021 : </em>HOSPIMEDIA Intership</h3>
+            <h3><em>2021 : </em>Stage HOSPIMEDIA</h3>
             <ul>
                 <li>Wordpress</li>
-                <li>Data management system</li>
-                <li>Project Management</li>
+                <li>Système de gestion de données</li>
+                <li>Gestion de projet</li>
             </ul>
         </div>
     </div>
@@ -37,8 +40,8 @@
         <h2>Hobbies</h2>
         <ul>
             <li>Football</li>
-            <li>Music</li>
-            <li>Video games</li>
+            <li>Musique</li>
+            <li>Jeux-vidéos</li>
         </ul>
     </div>
 </div>

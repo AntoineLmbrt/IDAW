@@ -10,6 +10,3 @@
         
     </head>
     <body>
-        <header>
-            <h1>TP2 : My first website (with PHP !)</h1>
-        </header>
