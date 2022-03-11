@@ -5,8 +5,7 @@
             //idPage titre
             'index' => array('ACCEUIL'),
             'cv' => array('CV'),
-            'projets' => array('PROJETS'),
-            'contact' => array('CONTACT')
+            'projets' => array('PROJETS')
         );
         
         echo('<nav class="menu"><ul>');
