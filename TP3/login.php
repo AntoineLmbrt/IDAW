@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <form id="login_form" action="connected.php" method="POST">
     <table>
         <tr>
@@ -18,13 +14,3 @@
         </tr>
     </table>
 </form>
-
-<?php
-    if (isset($_SESSION['login'])) {
-        echo '<h1>Bienvenu ' . $_SESSION['login'] . '!</h1>';
-    }
-?>
-
-<?php
-    echo '<a href="logout.php"><p>Se déconnecter</p></a>';
-?>

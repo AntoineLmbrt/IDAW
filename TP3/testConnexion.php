@@ -9,13 +9,12 @@
     if($conn->connect_error){
         die('Erreur : ' .$conn->connect_error);
     }
-    echo 'Connexion réussie';
 
-    $sql = "SELECT login, password FROM User";
+    $sql = "SELECT * FROM User";
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
-        echo '<table><tr>';
+        echo '<table id="testConnexion"><tr>';
         echo '<th>id</th>';
         echo '<th>login</th>';
         echo '<th>password</th>';

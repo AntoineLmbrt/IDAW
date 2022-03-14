@@ -1,5 +1,4 @@
 <?php
-    // on simule une base de données
     $servname = 'localhost';
     $dbname = 'TP3';
     $user = 'root';
@@ -35,10 +34,7 @@
         // echo "<h1>Bienvenu ".$login."</h1>";
         // echo "<h2><em>Login :</em> ".$login."</h2>";
         // echo "<h2><em>Password :</em> ".$password."</h2>";
-        echo '<h1>Bonjour ' . $_SESSION['login'] . '</h1>';
+        header('Location: index.php');
     }
-
-    echo '<a href="logout.php"><p>Se déconnecter</p></a>';
-
 ?>
     

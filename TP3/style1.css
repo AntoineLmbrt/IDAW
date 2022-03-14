@@ -1,11 +1,63 @@
 body {
-    background-color: #7DC2A5;
+    background-color: #9FCDA8;
     background-image: url("assets/background.png");
     background-repeat: repeat;
     margin: 0 auto;
 }
 
-body h1 {
+h1, h2, h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #F1F1D3;
+}
+
+header {
+    background-color: #7DC2A5;
+    background-image: url("assets/background.png");
+    width: 100%;
+    height: 115px;
+}
+header h1 {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+#style_form {
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+#login_form, #inscription {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#connected {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#signup {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.content {
+    text-align: center;
+}
+
+#testConnexion {
+    color: #F1F1D3;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid #F1F1D3;
+    margin: auto;
+}
+
+#testConnexion tr:nth-child(1) {
+    border: 3px solid #F1F1D3;
 }

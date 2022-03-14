@@ -1,18 +1,20 @@
-<?php
-    $servname = 'localhost';
-    $dbname = 'tp3';
-    $user = 'root';
-    $pass = '';
-    $conn = new mysqli($servname, $user, $pass, $dbname);
-    if($conn->connect_error){
-        die('Erreur : ' .$conn->connect_error);
-    }
-
-    if(isset($_POST['login']) && isset($_POST['password']) && isset($_POST['pseudo'])) {
-        $sql = "INSERT INTO user (login, password, pseudo)
-        VALUES ('".$_POST['login']."', '".$_POST['password']."', '".$_POST['pseudo']."')";
-        $conn->query($sql);
-    }
-
-    header('Location: login.php');
-?>
+<form id="inscription" action="inscription.php" method="POST">
+    <table>
+        <tr>
+            <th>Login :</th>
+            <td><input type="text" name="login"></td>
+        </tr>
+        <tr>
+            <th>Mot de passe :</th>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <th>Pseudo :</th>
+            <td><input type="text" name="pseudo"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="submit" value="S'inscrire" /></td>
+        </tr>
+    </table>
+</form>
