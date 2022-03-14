@@ -8,9 +8,9 @@
         <!-- CSS files -->
         <?php
             if (isset($_GET['css'])) {
-                echo '<link rel="stylesheet" href="'.$_COOKIE['style'].'.css">';
+                echo '<link rel="stylesheet" href="'.$_GET['css'].'.css">';
             }
-            if (isset($_COOKIE['style'])) {
+            else if (isset($_COOKIE['style'])) {
                 echo '<link rel="stylesheet" href="'.$_COOKIE['style'].'.css">';
             } else {
                 echo '<link rel="stylesheet" href="'.$defaultStyle.'.css">';
