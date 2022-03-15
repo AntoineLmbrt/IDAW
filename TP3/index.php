@@ -21,7 +21,7 @@
     </form>
     <?php
         if (isset($_SESSION['login']) && !isset($_GET['disconnect'])) {
-            echo '<div id="connected"><h2>Salut ' . $_SESSION['login'] . ' !</h2>';
+            echo '<div id="connected"><h2>Salut ' . $_SESSION['pseudo'] . ' !</h2>';
             echo '<a href="index.php?disconnect"><p>Se déconnecter</p></a></div>';
         } else {
             if(isset($_GET['signup'])) {
