@@ -3,8 +3,9 @@
     $defaultStyle = 'style1';
     if (isset($_GET['css'])) {
         if(isset($_COOKIE['style'])) {
-            setcookie('style', $_GET['css']);
+            unset($_COOKIE['style']);
         }
+        setcookie('style', $_GET['css']);
     }
     require_once('header.php');
 ?>
